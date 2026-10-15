@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><link rel="stylesheet" href="popup.css"><title>FocusDesk</title></head>
+<body>
+  <div class="modes" role="tablist">
+    <button data-mode="focus" class="on">Focus 25</button>
+    <button data-mode="short">Break 5</button>
+    <button data-mode="long">Long 15</button>
+  </div>
+  <div id="time">25:00</div>
+  <div class="row">
+    <button id="toggle" class="primary">Start</button>
+    <button id="reset">Reset</button>
+  </div>
+  <p id="stats">Sessions today: 0</p>
+  <form id="taskForm"><input id="task" placeholder="What will you study?" maxlength="50" autocomplete="off"><button>Add</button></form>
+  <ul id="tasks"></ul>
+  <script src="popup.js"></script>
+</body></html>

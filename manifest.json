@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "FocusDesk Study Timer",
+  "version": "1.0",
+  "description": "Pomodoro study timer with a session task list and break reminders.",
+  "permissions": ["storage", "alarms", "notifications"],
+  "action": { "default_popup": "popup.html", "default_title": "FocusDesk" },
+  "background": { "service_worker": "background.js" },
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" }
+}

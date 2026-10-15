@@ -1,0 +1,16 @@
+body{width:300px;margin:0;padding:14px;font:14px "Segoe UI",sans-serif;background:#10231f;color:#e8f3ef}
+.modes{display:flex;gap:6px}
+.modes button{flex:1;padding:6px;border:1px solid #2f4f47;background:transparent;color:#e8f3ef;border-radius:6px;cursor:pointer}
+.modes .on{background:#2dd4bf;color:#10231f;border-color:#2dd4bf;font-weight:600}
+#time{font:700 54px Georgia,serif;text-align:center;margin:12px 0}
+.row{display:flex;gap:8px}
+.row button{flex:1;padding:8px;border-radius:6px;border:1px solid #2f4f47;background:transparent;color:#e8f3ef;cursor:pointer}
+.row .primary{background:#2dd4bf;color:#10231f;font-weight:600;border-color:#2dd4bf}
+#stats{color:#9fbdb4;margin:10px 0}
+#taskForm{display:flex;gap:6px}
+#taskForm input{flex:1;padding:6px;border-radius:6px;border:1px solid #2f4f47;background:#0b1a17;color:#e8f3ef}
+#taskForm button{padding:6px 12px;border-radius:6px;border:0;background:#2dd4bf;cursor:pointer;font-weight:600}
+ul{list-style:none;padding:0;margin:8px 0 0;max-height:130px;overflow:auto}
+li{display:flex;align-items:center;gap:6px;padding:4px 0;border-bottom:1px solid #1d3a33}
+li.done span{text-decoration:line-through;color:#7f9b92}
+li button{margin-left:auto;background:none;border:0;color:#9fbdb4;cursor:pointer}
